@@ -1,12 +1,13 @@
 import React from 'react'
+import './nav.scss'
 
 export const Nav = () => {
   return (
-    <nav>
-      <a href="https://google.com">Home</a>
-      <a href="https://google.com">About</a>
-      <a href="https://google.com">Projects</a>
-      <a href="https://google.com">Resume</a>
+    <nav className='topNav'>
+      <a href="https://google.com">HOME</a>
+      <a href="https://google.com">ABOUT</a>
+      <a href="https://google.com">PROJECTS</a>
+      <a href="https://google.com">RESUME</a>
     </nav>
   );
 }
