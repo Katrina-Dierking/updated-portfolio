@@ -8,7 +8,7 @@ function Main() {
       <section className='main'>
 
         <section className='mainTop'>
-          <h2>Katrina DIERKING</h2>
+          <h2>KATRINA DIERKING</h2>
           <p>SOFTWARE ENGINEER | MASTER CRAFTER | COFFEE ADDICT</p>
         </section>
 
