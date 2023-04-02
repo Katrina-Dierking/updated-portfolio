@@ -1,12 +1,12 @@
 
-import './App.css';
+import './App.scss';
 import Main from './main/Main';
 
 function App() {
   return (
-   <div>
+   <section className='app'>
     <Main />
-   </div>
+   </section>
   );
 }
 
