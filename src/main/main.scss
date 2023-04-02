@@ -28,9 +28,12 @@
     .main {
         width: 100vw;
         @include displayFlex();
-        border: 2px solid black;
         font-family:Bona Nova;
-        margin:3% 0;
+        margin:1% 0;
+          background-image: url('../images/inkBack.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+        
     }
 
     .main h2 {

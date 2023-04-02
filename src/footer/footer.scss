@@ -9,5 +9,25 @@
 
 /* //desktop */
 @media screen  and (min-width: 768px) {
-    
+    footer {
+        background-color:black;
+        height: 20vh;
+        color:white;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .footerNav {
+        width: 60vw;
+        margin: auto 0;
+    }
+    .footerNav a { 
+        color:white;
+    }
+
+    .footerNav a:hover {
+        color:yellow;
+    }
 }
