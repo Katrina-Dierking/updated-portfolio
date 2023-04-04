@@ -1,6 +1,8 @@
 
 import './App.scss';
-import Main from './main/Main';
+import Main from './components/main/Main';
+
+import Projects from './views/projects/Projects';
 
 function App() {
   return (

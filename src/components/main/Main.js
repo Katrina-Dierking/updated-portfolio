@@ -1,4 +1,5 @@
 import React from 'react'
+import Projects from '../../views/projects/Projects'
 import Layout from '../layout/Layout'
 import './main.scss'
 
@@ -21,8 +22,11 @@ function Main() {
             <button>NEED A DEVELOPER?</button>
           </div>
         </section>
-      
-      </section>
+
+        
+        </section>
+        <Projects />
+
     </Layout>
   )
 }
