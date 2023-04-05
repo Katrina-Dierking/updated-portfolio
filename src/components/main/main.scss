@@ -46,7 +46,15 @@
     
 
     .mainTop{
-        width: 35vw;
+        width: 40vw;
+         p
+         {
+            color: slategray;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+         }
+    
     }
 
     .mainBottom{
