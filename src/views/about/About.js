@@ -15,11 +15,47 @@ function About() {
       <section className="about">
         <h2>ABOUT KATRINA DIERKING</h2>
 
-          <Gallery />
-        
+        <section className="midAbout">
+          <section className="aboutLeft">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iure
+            commodi officia cupiditate similique harum vitae vero impedit eius
+            facere eos cumque illum nihil eligendi temporibus necessitatibus,
+            earum ipsa quas. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Modi iure commodi officia cupiditate similique harum vitae
+            vero impedit eius facere eos cumque illum nihil eligendi temporibus
+            necessitatibus, earum ipsa quas.
+          </section>
+
+          <section className="aboutRight">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+            modi nihil, maxime autem minus, earum animi recusandae alias, dolor
+            similique accusamus. Natus minima tempore, ducimus omnis nulla
+            accusamus impedit ullam. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Modi iure commodi officia cupiditate similique
+            harum vitae vero impedit eius facere eos cumque illum nihil eligendi
+            temporibus necessitatibus, earum ipsa quas.
+          </section>
         </section>
-        </Layout>
-        );
+
+        <section className="bottomAbout">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
+            deleniti, voluptatem veniam, necessitatibus dolor blanditiis facilis
+            reprehenderit quasi laudantium tenetur nostrum perferendis nulla est
+            magnam doloribus consequatur at quibusdam dolore?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
+            deleniti, voluptatem veniam, necessitatibus dolor blanditiis facilis
+            reprehenderit quasi laudantium tenetur nostrum perferendis nulla est
+            magnam doloribus consequatur at quibusdam dolore?
+          </p>
+        </section>
+
+        <Gallery />
+      </section>
+    </Layout>
+  );
       }
       
       export default About
