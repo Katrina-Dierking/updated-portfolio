@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './nav.scss'
 
 import home from '../../images/home.png'
@@ -10,32 +11,41 @@ export const Nav = () => {
   return (
     <nav className="topNav container">
       <div className="container">
+
         <div className="profile">
-          <img src={home} alt="home icon" />
-          <a href="https://google.com" className="title">
-            HOME
-          </a>
+          <Link to="/">
+            <img src={home} alt="home icon" />
+            <Link to="/" className="title">
+              HOME
+            </Link>
+          </Link>
         </div>
 
         <div className="profile">
-          <img src={about} alt="about icon" />
-          <a href="https://google.com" className="title">
-            ABOUT
-          </a>
+          <Link to="/about">
+            <img src={about} alt="about icon" />
+              <Link to="/about" className="title">
+              ABOUT
+              </Link>
+            </Link>
         </div>
 
         <div className="profile">
-          <img src={projects} alt="projects icon" />
-          <a href="https://google.com" className="title">
-            PROJECTS
-          </a>
+          <Link to="/projects">
+            <img src={projects} alt="projects icon" />
+            <Link to="/projects" className="title">
+              PROJECTS
+            </Link>
+          </Link>
         </div>
 
         <div className="profile">
-          <img src={resume} alt="resume icon" />
-          <a href="https://google.com" className="title">
-            RESUME
-          </a>
+          <Link to="/resume">
+            <img src={resume} alt="resume icon" />
+            <Link to="/resume" className="title">
+              RESUME
+            </Link>
+          </Link>
         </div>
       </div>
     </nav>
