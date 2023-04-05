@@ -25,6 +25,9 @@ function Main() {
 
         
         </section>
+        <section className='quote'>
+          <h3>Let's build something great together!</h3>
+        </section>
         <Projects />
 
     </Layout>
