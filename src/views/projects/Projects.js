@@ -13,7 +13,7 @@ function Projects() {
           className="up"
           id="up"
           onclick="topFunction()"
-          title="return home"
+          title="Scroll up"
         />
    
 
