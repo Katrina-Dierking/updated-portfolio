@@ -25,7 +25,7 @@ function Main() {
 
         
         </section>
-        <section className='quote'>
+        <section className='quote effect2'>
           <h3>Let's build something great together!</h3>
         </section>
         <Projects />
