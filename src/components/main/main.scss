@@ -31,7 +31,7 @@
         width: 100vw;
         @include displayFlex();
         font-family:Bona Nova;
-        margin:3% 0 0 0;
+        margin:1% 0;
           background-image: url('../../images/inkBack.jpg');
           background-repeat: no-repeat;
           background-size: cover;
@@ -77,7 +77,7 @@
     .quote {
         height: 18vh;
         background-color: black;
-        margin-top: -3%;
+        margin-top: -2%;
         margin-bottom:1%;
     }
 
@@ -119,5 +119,6 @@
         position:relative;
         font-family: 'Bilbo Swash Caps', cursive;
         font-weight: 300;
+        text-shadow: 3px 6px 15px lightgrey;
     }
 }
