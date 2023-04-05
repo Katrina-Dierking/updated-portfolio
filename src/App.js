@@ -6,6 +6,7 @@ import Home from './views/home/Home';
 import About from './views/about/About';
 import Projects from './views/projects/Projects';
 import Resume from './views/resume/Resume';
+import Contact from './views/contact/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path ="/about" element={<About />} />
         <Route path = "/projects" element={<Projects />} />
         <Route path = "/resume" element={<Resume />} />
+        <Route path = "/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
    </section>

@@ -5,7 +5,7 @@ function Resume() {
   return (
     <Layout>
         <section className='resume'>
-            <h2>Resume</h2>
+            <h2>RESUME</h2>
         </section>
     </Layout>
   )

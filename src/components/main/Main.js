@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Projects from '../../views/projects/Projects'
 import Layout from '../layout/Layout'
 import './main.scss'
@@ -15,11 +16,15 @@ function Main() {
 
         <section className='mainBottom'>
           <div className='butLeft'>
-            <button>NEED A WEBSITE?</button>
+            <Link to='/contact'>
+              <button>NEED A WEBSITE?</button>
+            </Link>
           </div>
 
           <div className='butRight'>
-            <button>NEED A DEVELOPER?</button>
+            <Link to='/resume'>
+              <button>NEED A DEVELOPER?</button>
+            </Link>
           </div>
         </section>
 
