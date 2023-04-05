@@ -3,9 +3,11 @@
     background-color: #1087A8;
     font-family: Bona Nova;
     color:white;
-    width: 16vw;
-    padding: 3%;
+    width: 14vw;
+    height: 5vh;
+    padding: 1% 0;
     font-size: 16px;
+    border-radius: 7%;
 }
 
 @mixin displayFlex {
@@ -49,7 +51,7 @@
 
     .mainBottom{
         width: 60vw;
-        padding:2%;
+        padding:1%;
         @include displayFlex();
         flex-direction: row;
     
@@ -58,69 +60,63 @@
 
     button {
         @include buttons();
-        border-radius:10%;
+        border-radius:5%;
         margin-top:40%;
     }
 
     .butLeft, .butRight{
         height: 30vh;
-        width: 50vw;
+        width: 30vw;
+
     }
 
     .butLeft {
-        border-right: 3px solid black;
+        border-right: 3px solid teal;
     }
 
     .quote {
-        height: 20vh;
-        background-color: lightgoldenrodyellow;
-       
+        height: 18vh;
+        background-color: black;
         margin-bottom:1%;
-        opacity: .7;
-
-          
     }
 
-   .effect2
-{
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-}
-.effect2:before, .effect2:after
-{
-  content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:0;
-    bottom:0;
-    left:10px;
-    right:10px;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 2px;
-}
-.effect2:after
-{
-  right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
-}
+   .effect2 {
+            position:relative;
+            -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        }
+    .effect2:before, .effect2:after {
+        content:"";
+            position:absolute;
+            z-index:-1;
+            -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+            -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+            box-shadow:0 0 20px rgba(0,0,0,0.8);
+            top:0;
+            bottom:0;
+            left:10px;
+            right:10px;
+            -moz-border-radius:100px / 10px;
+            border-radius:100px / 2px;
+        }
+    .effect2:after {
+        right:10px;
+            left:auto;
+            -webkit-transform:skew(8deg) rotate(3deg);
+            -moz-transform:skew(8deg) rotate(3deg);
+                -ms-transform:skew(8deg) rotate(3deg);
+                -o-transform:skew(8deg) rotate(3deg);
+                    transform:skew(8deg) rotate(3deg);
+        }
 
-    .quote h3{
-        padding-top: 4%;
-        font-weight: bold;
-        font-family: Bona Nova;
-        font-size: 24px;
+    .quote h3 {
+        padding-top: 3%;
+        font-size: 48px;
         color: teal;
         text-align:center;
         position:relative;
+        font-family: 'Bilbo Swash Caps', cursive;
+        font-weight: 300;
     }
 }
