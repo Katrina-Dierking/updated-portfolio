@@ -1,11 +1,24 @@
 import React from 'react'
 import './project.scss'
+import up from '../../images/up-arrow.png'
 
 function Projects() {
+
+
   return (
     <section className="projectsMain">
+        <img
+          src={up}
+          alt="up arrow"
+          className="up"
+          id="up"
+          onclick="topFunction()"
+          title="return home"
+        />
+   
+
       <div className="projBanner">
-        <h3 className='animate-charcter'>PROJECTS</h3>
+        <h3 className="animate-charcter">PROJECTS</h3>
       </div>
       <div className="projectGallery">
         <div className="project">
