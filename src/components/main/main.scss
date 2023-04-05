@@ -62,6 +62,7 @@
         @include buttons();
         border-radius:5%;
         margin-top:40%;
+        box-shadow: 5px 5px 10px lightslategrey;
     }
 
     .butLeft, .butRight{
