@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Projects from '../../views/projects/Projects'
 import Layout from '../layout/Layout'
 import './main.scss'
-import coffee from '../../images/hotCoffee.png'
 
 function Main() {
   return (
