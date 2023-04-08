@@ -17,7 +17,7 @@ export default function Arrow() {
      return (
         <>
             <section className='arrowAnimation'>
-                <Lottie options={defaultOptions} height={50} width={75} />
+                <Lottie options={defaultOptions} height={50} width={68} />
             </section>
         </>
      )
