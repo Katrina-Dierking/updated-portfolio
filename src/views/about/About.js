@@ -17,13 +17,9 @@ function About() {
 
         <section className="midAbout">
           <section className="aboutLeft">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iure
-            commodi officia cupiditate similique harum vitae vero impedit eius
-            facere eos cumque illum nihil eligendi temporibus necessitatibus,
-            earum ipsa quas. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Modi iure commodi officia cupiditate similique harum vitae
-            vero impedit eius facere eos cumque illum nihil eligendi temporibus
-            necessitatibus, earum ipsa quas.
+            Between crocheting, sculpting, wood-working and coding, creating is my happy-place. 
+
+            
           </section>
 
           <section className="aboutRight">
