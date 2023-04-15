@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './project.scss'
 import up from '../../assets/images/up-arrow.png'
 
@@ -10,14 +11,17 @@ function Projects() {
 
   return (
     <section className="projectsMain">
-      <img
-        src={up}
-        alt="up arrow"
-        className="up"
-        id="up"
-        onclick="topFunction()"
-        title="Scroll up"
-      />
+    <Link to="/">
+    
+    <img
+      src={up}
+      alt="up arrow"
+      className="up"
+      id="up"
+      onclick="topFunction()"
+      title="Scroll up"
+    />
+    </Link>
 
       <div className="projBanner">
         <h3 className="animate-charcter">PROJECTS</h3>
