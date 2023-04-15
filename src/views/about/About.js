@@ -3,7 +3,7 @@ import Layout from '../../components/layout/Layout'
 import './about.scss'
 
 import Gallery from '../../components/gallery/Gallery';
-import Arrow from '../../lotties/Arrow';
+import Arrow from '../../assets/lotties/Arrow';
 
 
 
