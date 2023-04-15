@@ -51,14 +51,21 @@
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    padding: 1%;
+    background-image: url('../../assets/images/inkBack.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
 .project {
   width: 250px;
   height: 250px; 
-  border: 1px solid black;
+  border: 2px solid teal;
   background-color: white;
+  border-radius:5%;
   padding: 2%;
   
   h5, p {

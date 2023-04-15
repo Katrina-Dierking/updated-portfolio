@@ -1,6 +1,6 @@
 import React from 'react'
 import './project.scss'
-import up from '../../images/up-arrow.png'
+import up from '../../assets/images/up-arrow.png'
 
 
 function Projects() {

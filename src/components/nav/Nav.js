@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import './nav.scss'
 
-import home from '../../images/home.png'
-import about from '../../images/about.png'
-import projects from '../../images/projects.png'
-import resume from '../../images/resume.png'
+import home from '../../assets/images/home.png'
+import about from '../../assets/images/about.png'
+import projects from '../../assets/images/projects.png'
+import resume from '../../assets/images/resume.png'
 
 export const Nav = () => {
   return (
