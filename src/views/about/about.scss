@@ -9,9 +9,13 @@
     h2 {
         font-family: 'Bona Nova';
         width: 30vw;
-        border-bottom: 3px solid black;
-        margin: 1% auto;
+        border-bottom: 3px solid rgba(16,135,168,1);
+        margin: 2% auto;
+        text-align: center;
         padding: 1%;
+        background: -webkit-linear-gradient(rgba(16,135,168,1) 54%, rgba(0,212,255,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     
 }
