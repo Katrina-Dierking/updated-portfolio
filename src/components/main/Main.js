@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Projects from '../../views/projects/Projects'
 import Layout from '../layout/Layout'
 import './main.scss'
+// import './mainButt.scss'
 
 function Main() {
   return (
@@ -18,16 +19,23 @@ function Main() {
           </p>
         </section>
 
-        <section className="mainBottom">
-          <div className="butLeft">
-            <Link to="/contact">
-              <button>NEED A WEBSITE?</button>
-            </Link>
+        <section className='mainBottom'>
+        
+            <div class="mainBox container-one butLeft">
+              <Link to="/resume">
+                <button>
+                NEED A DEVELOPER? 
+                  <div class="fill-one"></div>
+                </button>
+              </Link>
           </div>
 
-          <div className="butRight">
-            <Link to="/resume">
-              <button>NEED A DEVELOPER?</button>
+          <div class="mainBox container-two butRight">
+            <Link to="/contact">
+              <button>
+                NEED A WEBSITE? 
+                <div class="fill-two"></div>
+              </button>
             </Link>
           </div>
         </section>
@@ -38,6 +46,20 @@ function Main() {
       <Projects />
     </Layout>
   );
-}
+      }
+      
+      export default Main
+      // <section className="mainBottom">
+      //   <div className="butLeft">
+      //     <Link to="/contact">
+      //       <button>NEED A WEBSITE?</button>
+      //     </Link>
+      //   </div>
+  
 
-export default Main
+      //   <div className="butRight">
+      //     <Link to="/resume">
+      //       <button>NEED A DEVELOPER?</button>
+      //     </Link>
+      //   </div>
+      // </section>

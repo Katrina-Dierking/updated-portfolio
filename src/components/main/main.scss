@@ -1,14 +1,14 @@
 
-@mixin buttons {
-    background-color: #1087A8;
-    font-family: Bona Nova;
-    color:white;
-    width: 14vw;
-    height: 5vh;
-    padding: 1% 0;
-    font-size: 18px;
-    border-radius: 7%;
-}
+// @mixin buttons {
+//     background-color: #1087A8;
+//     font-family: Bona Nova;
+//     color:white;
+//     width: 14vw;
+//     height: 5vh;
+//     padding: 1% 0;
+//     font-size: 18px;
+//     border-radius: 7%;
+// }
 
 @mixin displayFlex {
         display:flex;
@@ -65,14 +65,29 @@
     
 
     }
-
-    button {
-        @include buttons();
-        border-radius:5%;
-        margin-top:40%;
-        box-shadow: 5px 5px 10px lightslategrey;
+    
+    .mainBox {
+        text-align: center;
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+        cursor: pointer;
     }
 
+
+    button {
+        margin-top:40%;
+        position: relative;
+        height: 50px;
+        width: 210px;
+        border: 0;
+        border-radius: 5px;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        overflow: hidden;
+        box-shadow: 0 4px 12px 0 rgba(152, 160, 180, 10);
+        z-index: 2;
+    }
     .butLeft, .butRight{
         height: 30vh;
         width: 30vw;
@@ -130,4 +145,77 @@
         font-weight: 300;
         text-shadow: 3px 6px 15px lightgrey;
     }
+}
+
+.fill-one {
+	position: absolute;
+	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+   background: linear-gradient(227deg, rgba(2,0,36,1) 0%, rgba(0,255,231,1) 34%, rgba(16,135,168,1) 100%);
+	height: 70px;
+	width: 420px;
+	border-radius: 5px;
+	margin: -40px 0 0 -140px;
+	z-index: -1;
+	transition: all 0.4s ease;
+}
+
+.container-one:hover .fill-one {
+	-webkit-transform: translateX(100px);
+	-moz-transform: translateX(100px);
+	transform: translateX(100px);
+}
+
+.fill-two {
+	position: absolute;
+	background-image: linear-gradient(to right, #E040FB, #00BCD4);
+    background: linear-gradient(227deg, rgba(2,0,36,1) 0%, rgba(0,255,231,1) 80%, rgba(16,135,168,1) 100%);
+	background-size: 150% 150%;
+	height: 70px;
+	width: 420px;
+	border-radius: 5px;
+	margin: -40px 0 0 -140px;
+	z-index: -1;
+	transition: all 0.4s ease;
+}
+
+.container-two:hover .fill-two {
+	-webkit-animation: gradient 3s ease infinite;
+	-moz-animation: gradient 3s ease infinite;
+	animation: gradient 3s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-moz-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
