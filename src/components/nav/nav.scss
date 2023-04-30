@@ -1,7 +1,8 @@
 
 
 @mixin primaryColor {
-    color:#ffff00;
+    // color:#ffff00;
+    color:gold;
 }
 @mixin secondaryColor {
     color: #1087A8;
@@ -9,7 +10,7 @@
 /* // mobile */
 
 @mixin background {
-    background-color: #ffff00
+    background-color:gold;
 }
 @mixin boxShadow {
     box-shadow: 10px 10px 10px lightslategrey; 
@@ -34,8 +35,8 @@
         .container {
 
                display: flex;
-               width: 30vw;
-                justify-content: space-around;
+               width: 35vw;
+                justify-content: space-between;
                 
                 
             }
@@ -47,7 +48,7 @@
                     border: 3px solid black;
                     padding: 2%;
                     filter: drop-shadow(10px 10px 8px grey);
-                    cursor: pointer;
+                    cursor: pointer
                  }
 
             }
@@ -65,7 +66,7 @@
             .profile .title {
                 position: absolute;
                 background: linear-gradient(297deg, rgba(2,0,36,1) 0%, rgba(16,135,168,1) 54%, rgba(0,212,255,1) 100%);
-                color: #000;
+                color: white;
                 font-family: 'Bona Nova';
                 padding: 10px 20px;
                 border-radius: 100px;
