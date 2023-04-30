@@ -1,8 +1,8 @@
 export const projects = [
          {
            id: 1,
-           title: "The Mom Hive",
-           description: "",
+           title: "The Homeschool Mom Hive",
+           description: "Where community comes to life.",
            url: "",
            link: "",
          },
@@ -16,14 +16,14 @@ export const projects = [
          {
            id: 3,
            title: "Renaissance Wife",
-           description: "",
+           description: "It's never too late for a personal renaissance",
            url: "",
            link: "",
          },
          {
            id: 4,
            title: "Queen Bean Design Cafe",
-           description: "",
+           description: "Creating the life you want.",
            url: "",
            link: "",
          },
