@@ -36,7 +36,10 @@ function Projects() {
           props={pro}
           key={i}
           title={pro.title}
+          subtitle={pro.subtitle}
           description={pro.description}
+          github={pro.github}
+          live={pro.live}
         />
       ))}
     </div>
