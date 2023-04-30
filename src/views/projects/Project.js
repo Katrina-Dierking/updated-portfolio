@@ -4,8 +4,8 @@ import './proCard.scss'
 function Project({title, description}) {
   return (
    <section className='projectCard'>
-       <h3>Title: {title}</h3>
-       <p>Description: {description}</p>
+       <h3> {title}</h3>
+       <p>{description}</p>
     </section>
   )
 }

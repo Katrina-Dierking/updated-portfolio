@@ -27,5 +27,11 @@ export const projects = [
            url: "",
            link: "",
          },
-         
+         {
+           id: 5,
+           title: "Model View Controller",
+           description: "MVC Presentation.",
+           url: "",
+           link: "",
+         },
        ];
