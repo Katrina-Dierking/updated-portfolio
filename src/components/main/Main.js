@@ -13,27 +13,26 @@ function Main() {
           <h2>KATRINA DIERKING</h2>
 
           <p>
-            SOFTWARE ENGINEER
+            <li>SOFTWARE ENGINEER</li>
             <li> MASTER CRAFTER</li>
             <li> COFFEE ADDICT</li>
           </p>
         </section>
 
-        <section className='mainBottom'>
-        
-            <div class="mainBox container-one butLeft">
-              <Link to="/resume">
-                <button>
-                NEED A DEVELOPER? 
-                  <div class="fill-one"></div>
-                </button>
-              </Link>
+        <section className="mainBottom">
+          <div class="mainBox container-one butLeft">
+            <Link to="/resume">
+              <button>
+                NEED A DEVELOPER?
+                <div class="fill-one"></div>
+              </button>
+            </Link>
           </div>
 
           <div class="mainBox container-two butRight">
             <Link to="/contact">
               <button>
-                NEED A WEBSITE? 
+                NEED A WEBSITE?
                 <div class="fill-two"></div>
               </button>
             </Link>

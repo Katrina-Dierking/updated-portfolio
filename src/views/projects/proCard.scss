@@ -1,16 +1,33 @@
 .projectCard {
-      border: 2px solid teal;
+    border: 2px solid teal;
     background-color: white;
     border-radius:5%;
     width: 35vw;
     margin:1%;
     padding:1%;
 
+    img {
+      width: 25vw;
+    }
+
   }
   .projectCard:hover {
     border: 5px solid gold;
     width: 45vw;
+
+    img {
+      width: 30vw;
+    }
+    h3{
+      font-size: 32px;
+    }
+    p {
+      font-size: 24px;
+    }
   }
+
+
+  
 
   .links {
     display:flex;

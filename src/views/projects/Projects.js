@@ -36,6 +36,8 @@ function Projects() {
           props={pro}
           key={i}
           title={pro.title}
+          img={pro.img}
+          alt={pro.alt}
           subtitle={pro.subtitle}
           description={pro.description}
           github={pro.github}

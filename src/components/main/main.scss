@@ -32,10 +32,9 @@
         @include displayFlex();
         font-family:Bona Nova;
         margin:2% 0;
-          background-image: url('../../assets/images/blueink.jpg');
+          background-image: url('../../assets/images/inkBack.jpg');
           background-repeat: no-repeat;
           background-size: cover;
-        
     }
 
     .main h2 {
@@ -58,6 +57,7 @@
             padding:1%;
          
          }
+      
     
     }
 
@@ -102,7 +102,7 @@
     }
 
     .butLeft {
-        border-right: 3px solid teal;
+        border-right: 4px solid black;
     }
 
     .quote {
