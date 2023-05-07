@@ -3,9 +3,9 @@ import Layout from '../../components/layout/Layout'
 
 function Resume() {
   return (
-    <Layout>
+    <Layout title="RESUME">
         <section className='resume'>
-            <h2>RESUME</h2>
+           
         </section>
     </Layout>
   )

@@ -16,9 +16,9 @@ function Contact() {
 
 
   return (
-   <Layout>
+   <Layout title="CONTACT">
         <section className='contact'>
-            <h2> CONTACT</h2>
+
 
             <form onSubmit={handleSubmit} className="form">
               <div className='inputs'>
