@@ -8,14 +8,13 @@ import Arrow from '../../assets/lotties/Arrow';
 
 
 
-function About() {
+function About({title}) {
 
  
   return (
-    <Layout>
+    <Layout title = "ABOUT">
       <section className="about">
-        <h2>ABOUT KATRINA DIERKING</h2>
-
+  
         <section className="midAbout">
           <section className="aboutLeft">
             Between crocheting, sculpting, wood-working, writing, and coding,
