@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './project.scss'
-import { projects } from '../../assets/proData';
+import { projects } from '../../assets/api/proData';
 import up from '../../assets/images/up-arrow.png'
 import Project from './Project';
 
