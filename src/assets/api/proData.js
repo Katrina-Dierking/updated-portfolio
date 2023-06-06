@@ -27,7 +27,7 @@ export const projects = [
          },
          {
             id: 4,
-            title: "Queen Bean Design Cafe",
+            title: "Queen Bean Design Cafe Funnel",
             subtitle:"",
             img:"https://blog.queenbeandesigncafe.com/wp-content/uploads/2023/05/QueenBeanFunnel.png",
             alt: "design for queen bean funnel page", 
